@@ -5,7 +5,7 @@ Integrating neo4j with Hibernate OGM on worldcup dataset.
 
 Why Hibernate OGM ?
 
-Because it's JPA compatible and it has not much other concepts to learn that neo4j and JPA.
+Because it's JPA compatible and it has not much other concepts to learn than neo4j and JPA.
 
 ## Installation
 
