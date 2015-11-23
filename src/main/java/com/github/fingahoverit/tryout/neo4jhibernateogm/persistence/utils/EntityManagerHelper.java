@@ -1,4 +1,4 @@
-package com.github.fingahoverit.tryout.neo4jhibernateogm.common.utils;
+package com.github.fingahoverit.tryout.neo4jhibernateogm.persistence.utils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

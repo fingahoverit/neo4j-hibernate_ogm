@@ -4,8 +4,8 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import com.github.fingahoverit.tryout.neo4jhibernateogm.common.utils.EntityManagerHelper;
 import com.github.fingahoverit.tryout.neo4jhibernateogm.persistence.entity.Country;
+import com.github.fingahoverit.tryout.neo4jhibernateogm.persistence.utils.EntityManagerHelper;
 
 /**
  * neo4j demo with world cup dataset
