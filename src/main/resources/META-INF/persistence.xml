@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+
+	<persistence-unit name="ogm-neo4j" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ogm.jpa.HibernateOgmPersistence</provider>
+		<properties>
+			<property name="hibernate.ogm.datastore.provider" value="neo4j_embedded" />
+			<property name="hibernate.ogm.neo4j.database_path" value="C:/temp/neo4j/neo4j_worldcup" />
+<!-- 			<property name="hibernate.ogm.neo4j.database_path" value="C:/TEMP/ogm-neo4j" /> -->			
+		</properties>
+	</persistence-unit>
+
+</persistence>
