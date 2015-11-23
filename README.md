@@ -3,7 +3,7 @@ NEO4J integrated with Hibernate OGM
 
 Integrating neo4j with Hibernate OGM on worldcup dataset.
 
-Why Hibernate OGM ?
+Why Hibernate OGM (Object/Grid Mapping) ?
 
 Because it's JPA compatible and it has not much other concepts to learn than neo4j and JPA.
 
@@ -26,12 +26,6 @@ Because it's JPA compatible and it has not much other concepts to learn than neo
 1. Install version 2.1.8 of [neo4j](http://neo4j.com/download/)
 2. Use scripts from directory : TODO
 3. 5! 5! 5!
-
-<!--- dbms.security.load_csv_file_url_root=C:/Users/pent/git/neo4j-hibernate_ogm --->
-<!---
-* OR with db injection with Java
---->
-
 
 Rock 'n Roll!
 
